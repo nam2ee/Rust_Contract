@@ -1,0 +1,14 @@
+[package]
+name = "Rusty_DEX"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+cosmwasm-std = "1.0"
+cosmwasm-storage = "1.0"
+cosmwasm-schema = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+schemars = "0.8"
+thiserror = "1.0"
